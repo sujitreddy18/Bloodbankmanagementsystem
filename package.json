@@ -1,0 +1,9 @@
+{
+  "name": "lifelink-donor-management",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A local donor directory with persistent profiles and geographic search",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js", "test": "node --test" }
+}
